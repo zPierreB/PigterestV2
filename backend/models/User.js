@@ -9,7 +9,8 @@ class User {
         this.password = password
     }
 
-    login() {
+    login(req, res) {
+        // const email = req.b
         // const password = this.password;
         const password = "coucou";
         const salt = parseInt(process.env.PSWD_SALT);
