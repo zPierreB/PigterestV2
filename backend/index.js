@@ -22,6 +22,3 @@ const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`Server is successfully running!`);
 });
-
-const user = new User();
-user.login();
